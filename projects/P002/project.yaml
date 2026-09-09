@@ -2,16 +2,17 @@ project_id: P002
 campaign: Economic D-Day — Iran
 status: master-approved
 master_template_status: APPROVED
-current_version: 2
+current_version: 8
 template: campaign
-latest_asset: prepared/brand-logo-transparent.png
-latest_handoff: handoff/economic-dday-P002-handoff-v02.md
+latest_asset: prepared/BG-WHITE.png
+latest_handoff: handoff/economic-dday-P002-handoff-v08.md
 latest_figma: figma/figma.yaml
-latest_export: exports/economic-dday-P002-01-v02.png
+latest_export: exports/economic-dday-P002-01-v08.png
 created_at: '2026-09-09'
 updated_at: '2026-09-09'
 notes:
-- Revision v02 of the existing P002 campaign. Not a new project. P001 was not touched.
-- Corrected version is the APPROVED MASTER TEMPLATE for future posts.
-- Future posts must duplicate/reuse this visual system and populate content. Do not rebuild from scratch.
-- v01 remains historical. v02 exports do not overwrite v01.
+- v08 is a precision text revision of the approved P002 master (header + slide 01 kicker only).
+- Masthead English is IRANIAN MONARCHY PARTY. Top-right is two lines: پارمان پادشاهی ایرانیان / Iranian Monarchy Party.
+- Slide 01 kicker is 01 · A STRONGER IRAN. Slides 02–05 kickers unchanged.
+- Not a new project. Not a new Figma file. P001 was not touched.
+- Previous exports v01–v07 remain historical and were not overwritten.

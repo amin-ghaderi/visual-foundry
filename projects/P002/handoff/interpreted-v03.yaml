@@ -1,0 +1,54 @@
+project_id: P002
+campaign: Economic D-Day — Iran
+template: campaign
+canvas: [1080, 1080]
+frame_count: 5
+version: v03
+master_template_status: APPROVED
+logo_source: projects/P002/input/brand-logo.jpg
+logo_prepared: projects/P002/prepared/brand-logo-transparent.png
+lion_prepared: projects/P002/prepared/lion-motif.png
+content:
+  masthead_fa: پارمان پادشاهی ایرانیان
+  masthead_en: IRANIAN MONARCHY PARLIAMENT
+  footer_fa: پارمان پادشاهی ایرانیان
+  post_01:
+    kicker: 01 · THE HOOK
+    headline: Economic D-Day برای ایران آغاز شد
+  post_02:
+    kicker: 02 · WHAT IS D-DAY?
+    headline: چرا «D-Day»؟
+  post_03:
+    kicker: 03 · WHAT IS ECONOMIC D-DAY?
+    headline: هدف: بستن شریان‌های اقتصادی ایران
+  post_04:
+    kicker: 04 · CONSEQUENCES FOR IRAN
+    headline: وقتی شریان‌های اقتصاد محدود می‌شوند
+  post_05:
+    kicker: 05 · THE WORLD AROUND IRAN
+    headline: وقتی مسیرهای جایگزین هم محدود می‌شوند
+color:
+  bg: '#0D1722'
+  bg_secondary: '#111E2B'
+  ivory: '#F4F1E8'
+  gold: '#C8A94B'
+figma_file_name: ECONOMIC D-DAY — IRAN — P002
+figma_file_key: 1Hlx23O0YeWSPJ5NgMBZWg
+figma_url: https://www.figma.com/design/1Hlx23O0YeWSPJ5NgMBZWg
+frames:
+  - name: 01 — THE HOOK
+    id: "2:2"
+  - name: 02 — WHAT IS D-DAY?
+    id: "2:17"
+  - name: 03 — WHAT IS ECONOMIC D-DAY?
+    id: "2:34"
+  - name: 04 — CONSEQUENCES FOR IRAN
+    id: "2:57"
+  - name: 05 — THE WORLD AROUND IRAN
+    id: "13:2"
+restrictions:
+  - Do not generate images.
+  - Do not redraw or recolor the supplied logo.
+  - Do not place the full logo as a background watermark.
+  - Do not invent quotations, slogans, facts, or unsupported claims.
+  - Do not modify P001 or other projects.

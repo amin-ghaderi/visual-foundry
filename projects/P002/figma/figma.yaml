@@ -5,18 +5,22 @@ mcp_server: user-figma
 canvas: [1080, 1080]
 created_at: "2026-09-09"
 updated_at: "2026-09-09"
-version: v02
+version: v08
 master_template_status: APPROVED
+revision: precision-header-text
 logo_source: projects/P002/input/brand-logo.jpg
 logo_prepared: projects/P002/prepared/brand-logo-transparent.png
 logo_image_hash: 0e41c6c0e2d1aada29559faff511c471f96944f7
-logo_treatment: FIT, full artwork preserved, black/dark background keyed to transparent, top-left 72,64 size 92x80 on all four frames
-lion_prepared: projects/P002/prepared/lion-motif.png
-lion_image_hash: 794f41dce9b2c990dfda151d19b4667497fc1ea9
-lion_motif: lion-only gold artwork, FIT, fill opacity 0.09, 720x720 at 390,260, background watermark only
+logo_treatment: FIT, full 1280x1111 transparent PNG placed directly (not a small raster), top-left 72,64 size 92x80
+lion_prepared: projects/P002/prepared/BG-WHITE.png
+lion_image_hash: 61122cb41391031f698a02dae8c70d2e9846db1a
+lion_motif: BG-WHITE.png placed directly — white lion + mane/crown, transparent background, FIT, fill opacity 0.16, blend NORMAL, 640x640 at 220,220 (center 540,540)
 masthead_fa: پارمان پادشاهی ایرانیان
-masthead_en: IRANIAN MONARCHY PARLIAMENT
+masthead_fa_en: Iranian Monarchy Party
+masthead_en: IRANIAN MONARCHY PARTY
 footer_fa: پارمان پادشاهی ایرانیان
+kicker_to_headline_gap_px: 30-34
+chain_arrows: leftwards ← on frame 04
 frames:
   - name: 01 — THE HOOK
     id: "2:2"
@@ -25,7 +29,7 @@ frames:
     mast_fa_id: "2:5"
     mast_en_id: "2:6"
     foot_id: "2:9"
-    export: exports/economic-dday-P002-01-v02.png
+    export: exports/economic-dday-P002-01-v08.png
   - name: 02 — WHAT IS D-DAY?
     id: "2:17"
     logo_id: "2:19"
@@ -33,27 +37,38 @@ frames:
     mast_fa_id: "2:20"
     mast_en_id: "2:21"
     foot_id: "2:24"
-    export: exports/economic-dday-P002-02-v02.png
-  - name: 03 — ECONOMIC D-DAY
+    export: exports/economic-dday-P002-02-v08.png
+  - name: 03 — WHAT IS ECONOMIC D-DAY?
     id: "2:34"
     logo_id: "2:36"
     lion_id: "2:35"
     mast_fa_id: "2:37"
     mast_en_id: "2:38"
     foot_id: "2:41"
-    export: exports/economic-dday-P002-03-v02.png
-  - name: 04 — CONCLUSION
+    export: exports/economic-dday-P002-03-v08.png
+  - name: 04 — CONSEQUENCES FOR IRAN
     id: "2:57"
     logo_id: "2:59"
     lion_id: "2:58"
     mast_fa_id: "2:60"
     mast_en_id: "2:61"
     foot_id: "2:64"
-    export: exports/economic-dday-P002-04-v02.png
+    chain_id: "16:4"
+    export: exports/economic-dday-P002-04-v08.png
+  - name: 05 — THE WORLD AROUND IRAN
+    id: "13:2"
+    logo_id: "13:4"
+    lion_id: "13:3"
+    mast_fa_id: "13:5"
+    mast_en_id: "13:6"
+    foot_id: "13:9"
+    export: exports/economic-dday-P002-05-v08.png
 master_lock: true
-reuse_rule: Duplicate these four frames / this visual system and populate new content. Do not create a new Figma file or redesign unless explicitly instructed.
+reuse_rule: Duplicate these five frames / this visual system and populate new content at the mobile type scale. Do not create a new Figma file or redesign unless explicitly instructed.
 notes:
-  - Edited in place. No new Figma file. No new frames. P001 not touched.
-  - v01 used full-logo CROP watermark and JPEG logo with black rectangle. That is superseded.
-  - Logo artwork was not redrawn, cropped, recolored, or replaced with a generated logo.
-  - Lion motif contains only the central lion from the supplied logo, not the badge, ring, ribbons, or surrounding text.
+  - v08 header text + slide 01 kicker. P001 not touched.
+  - v07 BG-WHITE watermark placed in existing file. P001 not touched.
+  - v06 logo asset placed in existing file. P001 not touched.
+  - v05 edited in place. P001 not touched.
+  - Lion extracted from original brand-logo.jpg center: face + mane/crown only. No logo text, ring, or full emblem.
+  - Frame 04 chain uses leftwards arrows. Copy otherwise unchanged.

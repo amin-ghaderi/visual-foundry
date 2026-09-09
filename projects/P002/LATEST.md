@@ -1,25 +1,25 @@
 # P002 — latest
 
-MASTER TEMPLATE STATUS: APPROVED
+MASTER TEMPLATE STATUS: APPROVED  
+REVISION: PRECISION v08 (header text + slide 01 section label)
 
 - Status: `master-approved`
 - Template: `campaign`
-- Version: `v02` (current approved master)
-- Previous: `v01` retained as history; do not overwrite v01 exports
+- Version: `v08` (current approved master)
+- Previous: `v01`–`v07` retained as history; do not overwrite those exports
 - Campaign: `Economic D-Day — Iran`
-- Asset: `prepared/brand-logo-transparent.png`
-- Lion motif: `prepared/lion-motif.png`
-- Handoff: `handoff/economic-dday-P002-handoff-v02.md`
+- Logo: `prepared/brand-logo-transparent.png` (unchanged)
+- Background motif: `prepared/BG-WHITE.png` (unchanged)
+- Handoff: `handoff/economic-dday-P002-handoff-v08.md`
 - Figma: `figma/figma.yaml`
-- Export: `exports/economic-dday-P002-01-v02.png`
+- Export: `exports/economic-dday-P002-01-v08.png`
 
 ## What “use the P002 master template” means
 
-Duplicate/reuse this approved visual system and populate it with new content.
+Duplicate these five approved frames. Preserve the visual system. Populate new content and reflow when necessary. Keep mobile-readable type scale. Do not redesign from zero.
 
 Do not create a new Figma file.
 Do not create a new project.
-Do not rebuild the design from scratch unless explicitly instructed to create a completely new design system.
 Do not touch P001.
 
 ## Figma source of truth
@@ -33,23 +33,28 @@ Do not touch P001.
 |---|---|
 | 01 — THE HOOK | `2:2` |
 | 02 — WHAT IS D-DAY? | `2:17` |
-| 03 — ECONOMIC D-DAY | `2:34` |
-| 04 — CONCLUSION | `2:57` |
+| 03 — WHAT IS ECONOMIC D-DAY? | `2:34` |
+| 04 — CONSEQUENCES FOR IRAN | `2:57` |
+| 05 — THE WORLD AROUND IRAN | `13:2` |
 
-## Locked system
+## Locked visual system
 
 - Transparent logo, top-left, full supplied artwork
-- Persian masthead: پارمان پادشاهی ایرانیان
-- English masthead: IRANIAN MONARCHY PARLIAMENT
+- Top-right header, two lines, right-aligned: پارمان پادشاهی ایرانیان / Iranian Monarchy Party
+- English masthead: IRANIAN MONARCHY PARTY
 - Header rule, typography hierarchy, navy / ivory / restrained gold
-- Page numbering `01 / 04` … `04 / 04`
+- Page numbering `01 / 05` … `05 / 05`
 - Bottom-right Persian footer: پارمان پادشاهی ایرانیان
-- Lion-only faded background motif (not the full logo)
-- 1080 × 1080, consistent ~72 px margins
+- White lion + mane/crown watermark from `prepared/BG-WHITE.png`, geometrically centered, heavily faded
+- Section labels: `01 · A STRONGER IRAN`, then D-Day / Economic D-Day / Consequences / The World Around Iran
+- Clear gap between English section label and Persian headline
+- 1080 × 1080, ~72 px margins
+- Mobile-first type: headline strongest, then body, then key, then metadata
 
-## Exports (v02, 1× 1080×1080)
+## Exports (v08, 1× 1080×1080)
 
-- `exports/economic-dday-P002-01-v02.png`
-- `exports/economic-dday-P002-02-v02.png`
-- `exports/economic-dday-P002-03-v02.png`
-- `exports/economic-dday-P002-04-v02.png`
+- `exports/economic-dday-P002-01-v08.png`
+- `exports/economic-dday-P002-02-v08.png`
+- `exports/economic-dday-P002-03-v08.png`
+- `exports/economic-dday-P002-04-v08.png`
+- `exports/economic-dday-P002-05-v08.png`
