@@ -1,0 +1,50 @@
+{
+  "pipeline": "MEMORIAL_PORTRAIT_PREP_UPSCALE_2X",
+  "input": "assets\\prepared\\test-person-birefnet-refined.png",
+  "output": "assets\\prepared\\test-person-birefnet-refined-2x.png",
+  "model_method": "Real-ESRGAN x2plus ONNX (CPU, non-generative; full-frame with pad-to-multiple-of-4, tiled fallback)",
+  "inference_mode": "full-frame",
+  "tile_size": 512,
+  "model_path": "image-preparation\\models\\RealESRGAN_x2plus.onnx",
+  "alpha_method": "Lanczos 2x on existing alpha (silhouette preserved)",
+  "onnx_input": {
+    "name": "image",
+    "shape": [
+      "1",
+      "3",
+      "input_height",
+      "input_width"
+    ],
+    "type": "tensor(float)"
+  },
+  "model_bytes": 67191666,
+  "source_dimensions": [
+    452,
+    373
+  ],
+  "output_dimensions": [
+    904,
+    746
+  ],
+  "scale_factor": 2,
+  "processing_time_seconds": 7.245,
+  "alpha_preserved": "YES",
+  "silhouette_iou_vs_lanczos_alpha": 1.0,
+  "number_of_pixels_changed_vs_lanczos": 308137,
+  "geometry_changed": "NO",
+  "opaque_facial_pixels_structurally_altered": "NO",
+  "face_identity_mae": 5.3106,
+  "interior_identity_mae": 3.3886,
+  "lanczos_identity_mae": 0.4822,
+  "detail_laplacian_var_upscale": 217.9032,
+  "detail_laplacian_var_lanczos": 68.1925,
+  "detail_ratio_vs_lanczos": 3.1954,
+  "generated_invented_content": "NO",
+  "ram_or_memory_issues": "NO",
+  "failures": [],
+  "quality_gate": "PASS",
+  "expected_dimensions": [
+    904,
+    746
+  ]
+}

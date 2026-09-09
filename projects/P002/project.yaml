@@ -1,0 +1,17 @@
+project_id: P002
+campaign: Economic D-Day — Iran
+status: master-approved
+master_template_status: APPROVED
+current_version: 2
+template: campaign
+latest_asset: prepared/brand-logo-transparent.png
+latest_handoff: handoff/economic-dday-P002-handoff-v02.md
+latest_figma: figma/figma.yaml
+latest_export: exports/economic-dday-P002-01-v02.png
+created_at: '2026-09-09'
+updated_at: '2026-09-09'
+notes:
+- Revision v02 of the existing P002 campaign. Not a new project. P001 was not touched.
+- Corrected version is the APPROVED MASTER TEMPLATE for future posts.
+- Future posts must duplicate/reuse this visual system and populate content. Do not rebuild from scratch.
+- v01 remains historical. v02 exports do not overwrite v01.

@@ -1,0 +1,59 @@
+figma_file_name: ECONOMIC D-DAY — IRAN — P002
+figma_file_key: 1Hlx23O0YeWSPJ5NgMBZWg
+figma_url: https://www.figma.com/design/1Hlx23O0YeWSPJ5NgMBZWg
+mcp_server: user-figma
+canvas: [1080, 1080]
+created_at: "2026-09-09"
+updated_at: "2026-09-09"
+version: v02
+master_template_status: APPROVED
+logo_source: projects/P002/input/brand-logo.jpg
+logo_prepared: projects/P002/prepared/brand-logo-transparent.png
+logo_image_hash: 0e41c6c0e2d1aada29559faff511c471f96944f7
+logo_treatment: FIT, full artwork preserved, black/dark background keyed to transparent, top-left 72,64 size 92x80 on all four frames
+lion_prepared: projects/P002/prepared/lion-motif.png
+lion_image_hash: 794f41dce9b2c990dfda151d19b4667497fc1ea9
+lion_motif: lion-only gold artwork, FIT, fill opacity 0.09, 720x720 at 390,260, background watermark only
+masthead_fa: پارمان پادشاهی ایرانیان
+masthead_en: IRANIAN MONARCHY PARLIAMENT
+footer_fa: پارمان پادشاهی ایرانیان
+frames:
+  - name: 01 — THE HOOK
+    id: "2:2"
+    logo_id: "2:4"
+    lion_id: "2:3"
+    mast_fa_id: "2:5"
+    mast_en_id: "2:6"
+    foot_id: "2:9"
+    export: exports/economic-dday-P002-01-v02.png
+  - name: 02 — WHAT IS D-DAY?
+    id: "2:17"
+    logo_id: "2:19"
+    lion_id: "2:18"
+    mast_fa_id: "2:20"
+    mast_en_id: "2:21"
+    foot_id: "2:24"
+    export: exports/economic-dday-P002-02-v02.png
+  - name: 03 — ECONOMIC D-DAY
+    id: "2:34"
+    logo_id: "2:36"
+    lion_id: "2:35"
+    mast_fa_id: "2:37"
+    mast_en_id: "2:38"
+    foot_id: "2:41"
+    export: exports/economic-dday-P002-03-v02.png
+  - name: 04 — CONCLUSION
+    id: "2:57"
+    logo_id: "2:59"
+    lion_id: "2:58"
+    mast_fa_id: "2:60"
+    mast_en_id: "2:61"
+    foot_id: "2:64"
+    export: exports/economic-dday-P002-04-v02.png
+master_lock: true
+reuse_rule: Duplicate these four frames / this visual system and populate new content. Do not create a new Figma file or redesign unless explicitly instructed.
+notes:
+  - Edited in place. No new Figma file. No new frames. P001 not touched.
+  - v01 used full-logo CROP watermark and JPEG logo with black rectangle. That is superseded.
+  - Logo artwork was not redrawn, cropped, recolored, or replaced with a generated logo.
+  - Lion motif contains only the central lion from the supplied logo, not the badge, ring, ribbons, or surrounding text.

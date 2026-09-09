@@ -1,0 +1,27 @@
+figma_file_name: JAVIDNAMEH — P001 — REAL POSTER TEST
+figma_file_key: 9soVb7JuKOElMg75utFFtu
+figma_url: https://www.figma.com/design/9soVb7JuKOElMg75utFFtu
+template_used: memorial-art-direction
+revision: art-direction-01
+created_at: "2026-09-08"
+updated_at: "2026-09-08"
+portrait_asset: projects/P001/prepared/person-final.png
+portrait_image_hash: 70be0d691606db2ccc253ff3254dbdfb2efbab9e
+frames:
+  4x5:
+    frame_name: JAVIDNAMEH — P001
+    frame_id: "1:2"
+    canvas: [1080, 1350]
+    portrait: [64, 64, 560, 800]
+  9x16:
+    frame_name: JAVIDNAMEH — P001 — 9x16
+    frame_id: "36:2"
+    canvas: [1080, 1920]
+    portrait: [64, 64, 560, 1160]
+    editorial: [648, 64, 368, 1160]
+    lower: [64, 1280, 952, 576]
+notes:
+  - Original 4:5 frame left unchanged for comparison.
+  - 9:16 is a format adaptation of the approved poster, not a redesign.
+  - Same portrait imageHash. No generated image. No export in this step.
+  - P001 still has no personal name, dates, place, cause, or biography in project files.

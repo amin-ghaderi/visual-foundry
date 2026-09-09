@@ -1,0 +1,48 @@
+{
+  "pipeline": "MEMORIAL_PORTRAIT_PREP_V1_2",
+  "requested_input": "assets\\prepared\\test-person-birefnet-refined.png",
+  "input": "assets\\prepared\\test-person-birefnet-refined.png",
+  "output": "assets\\prepared\\test-person-portrait-1080x810-v2.png",
+  "source_dimensions": [
+    452,
+    373
+  ],
+  "output_dimensions": [
+    1080,
+    810
+  ],
+  "subject_bounding_box_source": {
+    "x0": 5,
+    "y0": 30,
+    "x1": 452,
+    "y1": 363
+  },
+  "source_window_copied": {
+    "x0": 5,
+    "y0": 30,
+    "x1": 452,
+    "y1": 363
+  },
+  "subject_width": 447,
+  "subject_height": 333,
+  "subject_position_in_output": {
+    "x": 316,
+    "y": 81,
+    "width": 447,
+    "height": 333
+  },
+  "margins": {
+    "top": 81,
+    "left": 316,
+    "right": 317,
+    "bottom": 396
+  },
+  "subject_occupancy_percent": 8.7051,
+  "number_of_source_pixels_copied_unchanged": 148851,
+  "number_of_generated_pixels": 0,
+  "distortion_occurred": "NO",
+  "source_pixels_modified": "NO",
+  "quality_gate": "PASS",
+  "quality_gate_failures": [],
+  "notes": []
+}

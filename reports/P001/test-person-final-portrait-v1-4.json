@@ -1,0 +1,48 @@
+{
+  "pipeline": "MEMORIAL_PORTRAIT_PREP_V1_4",
+  "input": "assets\\prepared\\test-person-birefnet-refined-2x.png",
+  "output": "assets\\prepared\\test-person-final-portrait-1080x810.png",
+  "input_dimensions": [
+    904,
+    746
+  ],
+  "output_dimensions": [
+    1080,
+    810
+  ],
+  "subject_bounding_box": {
+    "x0": 11,
+    "y0": 61,
+    "x1": 904,
+    "y1": 725,
+    "width": 893,
+    "height": 664
+  },
+  "subject_position": {
+    "x": 93,
+    "y": 81,
+    "width": 893,
+    "height": 664
+  },
+  "margins": {
+    "top": 81,
+    "left": 93,
+    "right": 94,
+    "bottom": 65
+  },
+  "percentage_of_canvas_occupied_by_subject": 35.4862,
+  "number_of_source_pixels_copied": 592952,
+  "number_of_generated_pixels": 0,
+  "number_of_modified_source_pixels": 0,
+  "aspect_ratio_changed": "NO",
+  "distortion_occurred": "NO",
+  "source_pixels_modified": "NO",
+  "alpha_preserved": "YES",
+  "complete_subject_copied": true,
+  "quality_gate": "PASS",
+  "quality_gate_failures": [],
+  "notes": [
+    "Geometric 1:1 copy of the validated 2\u00d7 Real-ESRGAN cutout onto a transparent 1080\u00d7810 canvas.",
+    "No second upscale, no generation, no face retouch."
+  ]
+}

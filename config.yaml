@@ -1,0 +1,40 @@
+project_name: Memorial Design Pipeline
+default_template: memorial
+default_canvas:
+  width: 1080
+  height: 1350
+default_portrait:
+  width: 1080
+  height: 810
+paths:
+  projects: projects
+  templates: templates
+  archive: archive/legacy
+  reports: reports
+  image_engine: image-preparation
+  models: image-preparation/models
+  workflows: image-preparation/workflows
+image_pipeline:
+  background_removal: birefnet
+  edge_refine: true
+  upscale_when_subject_smaller_than_portrait: true
+  never_upscale_automatically: false
+  preserve_identity: true
+  generative_face_restore: false
+  model: image-preparation/models/RealESRGAN_x2plus.onnx
+  opaque_alpha_min: 250
+export:
+  format: png
+  scale: 1
+  name_pattern: "{template}-{project_id}-{version}.{format}"
+versioning:
+  prefix: v
+  width: 2
+  start: 1
+python:
+  requires:
+    - Pillow
+    - numpy
+    - scipy
+    - onnxruntime
+    - PyYAML

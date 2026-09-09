@@ -1,0 +1,16 @@
+project_id: P001
+status: assets-ready
+current_version: 1
+template: memorial
+latest_asset: prepared/person-final.png
+latest_handoff: handoff/handoff-v01.md
+latest_figma: figma/poster-test.yaml
+latest_export: exports/memorial-P001-v01.png
+status: poster-test
+updated_at: '2026-09-08'
+created_at: '2026-09-08'
+updated_at: '2026-09-08'
+notes:
+- Existing Test Person pipeline subject.
+- Image plate V1.4 is validated. Figma poster revised in place (art-direction-01).
+- Do not invent biography for this subject.

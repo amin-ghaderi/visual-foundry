@@ -1,0 +1,266 @@
+{
+  "status": "PASS",
+  "failed": 0,
+  "passed": 51,
+  "checks": [
+    {
+      "item": "exists:README.md",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "item": "exists:DESIGN_PROTOCOL.md",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "item": "exists:CURSOR_AGENT.md",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "item": "exists:DESIGN_HANDOFF_PROTOCOL.md",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "item": "exists:config.yaml",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "item": "exists:pipeline\\run.py",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "item": "exists:pipeline\\create_project.py",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "item": "exists:pipeline\\prepare_image.py",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "item": "exists:pipeline\\version.py",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "item": "exists:pipeline\\validate.py",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "item": "exists:pipeline\\export.py",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "item": "exists:templates\\memorial\\MASTER.md",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "item": "exists:templates\\memorial\\DESIGN_SPEC.md",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "item": "exists:templates\\memorial\\PERSON_SCHEMA.json",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "item": "exists:image-preparation\\edge_refine.py",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "item": "exists:image-preparation\\models\\RealESRGAN_x2plus.onnx",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "item": "exists:archive\\legacy",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "item": "exists:reports",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "item": "exists:projects",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "item": "config.yaml",
+      "result": "PASS",
+      "detail": "project_name=Memorial Design Pipeline"
+    },
+    {
+      "item": "config.paths.projects",
+      "result": "PASS",
+      "detail": "projects"
+    },
+    {
+      "item": "config.paths.templates",
+      "result": "PASS",
+      "detail": "templates"
+    },
+    {
+      "item": "config.paths.archive",
+      "result": "PASS",
+      "detail": "archive/legacy"
+    },
+    {
+      "item": "config.paths.reports",
+      "result": "PASS",
+      "detail": "reports"
+    },
+    {
+      "item": "config.paths.image_engine",
+      "result": "PASS",
+      "detail": "image-preparation"
+    },
+    {
+      "item": "config.paths.models",
+      "result": "PASS",
+      "detail": "image-preparation/models"
+    },
+    {
+      "item": "import:edge_refine",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "item": "import:smart_portrait_crop",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "item": "import:upscale_2x",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "item": "import:final_portrait_asset",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "item": "import:pipeline.project",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "item": "import:pipeline.create_project",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "item": "import:pipeline.prepare_image",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "item": "import:pipeline.handoff",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "item": "import:pipeline.export",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "item": "import:pipeline.version",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "item": "cli:run.py --help",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "item": "template:memorial",
+      "result": "PASS",
+      "detail": "templates\\memorial"
+    },
+    {
+      "item": "template:PERSON_SCHEMA.json",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "item": "create-project:next-id",
+      "result": "PASS",
+      "detail": "next=P002 used=['P001']"
+    },
+    {
+      "item": "P001:project.yaml",
+      "result": "PASS",
+      "detail": "version=v01"
+    },
+    {
+      "item": "P001:input/",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "item": "P001:prepared/",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "item": "P001:handoff/",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "item": "P001:figma/",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "item": "P001:exports/",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "item": "P001:versions/",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "item": "P001:original",
+      "result": "PASS",
+      "detail": "16C01E49020258D5"
+    },
+    {
+      "item": "P001:final",
+      "result": "PASS",
+      "detail": "64747C1E99D114DD"
+    },
+    {
+      "item": "P001:final-size",
+      "result": "PASS",
+      "detail": "(1080, 810) RGBA"
+    },
+    {
+      "item": "model:RealESRGAN_x2plus.onnx",
+      "result": "PASS",
+      "detail": "67191666"
+    }
+  ],
+  "mcp": {
+    "figma": "checked separately via Figma MCP whoami",
+    "comfy": "checked separately via Comfy MCP server_info"
+  }
+}

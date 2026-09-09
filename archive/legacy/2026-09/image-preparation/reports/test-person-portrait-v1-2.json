@@ -1,0 +1,50 @@
+{
+  "pipeline": "MEMORIAL_PORTRAIT_PREP_V1_2",
+  "requested_input": "assets\\prepared\\test-person-birefnet-refined.png",
+  "input": "assets\\prepared\\test-person-birefnet.png",
+  "output": "assets\\prepared\\test-person-portrait-1080x810.png",
+  "source_dimensions": [
+    452,
+    373
+  ],
+  "output_dimensions": [
+    1080,
+    810
+  ],
+  "subject_bounding_box_source": {
+    "x0": 5,
+    "y0": 30,
+    "x1": 452,
+    "y1": 364
+  },
+  "source_window_copied": {
+    "x0": 5,
+    "y0": 30,
+    "x1": 452,
+    "y1": 364
+  },
+  "subject_width": 447,
+  "subject_height": 334,
+  "subject_position_in_output": {
+    "x": 316,
+    "y": 81,
+    "width": 447,
+    "height": 334
+  },
+  "margins": {
+    "top": 81,
+    "left": 316,
+    "right": 317,
+    "bottom": 395
+  },
+  "subject_occupancy_percent": 8.8848,
+  "number_of_source_pixels_copied_unchanged": 149298,
+  "number_of_generated_pixels": 0,
+  "distortion_occurred": "NO",
+  "source_pixels_modified": "NO",
+  "quality_gate": "PASS",
+  "quality_gate_failures": [],
+  "notes": [
+    "Requested input test-person-birefnet-refined.png was not on disk; used test-person-birefnet.png as the available BiRefNet-stage transparent PNG."
+  ]
+}

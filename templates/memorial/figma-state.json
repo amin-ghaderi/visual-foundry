@@ -1,0 +1,34 @@
+{
+  "runId": "memorial-master-v1",
+  "phase": "phase1-blocked-rate-limit",
+  "fileKey": "y7s7wj1KvlA01cyqlaJZDy",
+  "prototypeFrameId": "1:2",
+  "entities": {
+    "pages": {
+      "Page 1 (prototype)": "0:1",
+      "Master": "34:4",
+      "Instances": "34:5"
+    },
+    "collections": {
+      "Memorial Primitives": "VariableCollectionId:34:6"
+    },
+    "variables": {
+      "gray/paper": "VariableID:34:7",
+      "gray/ink": "VariableID:34:8",
+      "gray/ink-muted": "VariableID:34:9",
+      "gray/ink-subtle": "VariableID:34:10",
+      "gray/field-black": "VariableID:34:11",
+      "gray/rule": "VariableID:34:12"
+    },
+    "textStyles": {},
+    "components": {},
+    "frames": {}
+  },
+  "completedSteps": ["phase0", "pages", "primitives-colors"],
+  "blocked": "Figma Master Template is not built. Resume only when asked: semantic variables, text styles, components, master frame, test instance, portrait insert.",
+  "notes": [
+    "Starter plan allowed 3 pages total; Master + Instances were created; prototype Page 1 untouched.",
+    "Do not add Dark mode (Starter = 1 mode per collection).",
+    "Do not destroy MCP TEST FRAME."
+  ]
+}

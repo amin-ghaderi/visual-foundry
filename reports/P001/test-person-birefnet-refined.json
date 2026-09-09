@@ -1,0 +1,52 @@
+{
+  "pipeline": "MEMORIAL_PORTRAIT_PREP_EDGE_REFINE",
+  "source_birefnet": "assets\\prepared\\test-person-birefnet.png",
+  "base": "assets\\prepared\\test-person-birefnet-base.png",
+  "output": "assets\\prepared\\test-person-birefnet-refined.png",
+  "dimensions": [
+    452,
+    373
+  ],
+  "mode": "RGBA",
+  "format": "PNG",
+  "method": "Local compositing defringe: interior opaque pixels bitwise-copied; morphological/partial-alpha edge RGB taken from nearest interior pixel; low-alpha and outer-contour blue-spill dropped. No generation.",
+  "stats": {
+    "interior_pixels": 71549,
+    "opaque_pixels": 74188,
+    "edge_pixels_in": 6175,
+    "edge_pixels_dropped": 1572,
+    "edge_pixels_alpha_reduced": 351,
+    "edge_pixels_out": 4603,
+    "interior_pixels_unchanged": true
+  },
+  "same_dimensions": true,
+  "png_rgba": true,
+  "opaque_subject_pixels_unchanged": true,
+  "edge_pixels_may_change": true,
+  "background_contamination_reduced": true,
+  "face_regeneration": "NO",
+  "generated_pixels": 0,
+  "source_pixels_modified": "NO",
+  "contamination_before": {
+    "edge_pixels": 6175,
+    "blueish_edge_pixels": 3100,
+    "mean_blue_excess_on_edge": 25.1642,
+    "mean_edge_rgb": [
+      74.6,
+      65.09,
+      92.74
+    ]
+  },
+  "contamination_after": {
+    "edge_pixels": 4608,
+    "blueish_edge_pixels": 1,
+    "mean_blue_excess_on_edge": 0.0122,
+    "mean_edge_rgb": [
+      90.79,
+      73.0,
+      64.13
+    ]
+  },
+  "failures": [],
+  "quality_gate": "PASS"
+}

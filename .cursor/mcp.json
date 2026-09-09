@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "comfy-mcp": {
+      "type": "stdio",
+      "command": "C:\\Users\\info\\comfy-env\\Scripts\\comfy-mcp.exe",
+      "args": [],
+      "env": {
+        "COMFY_BIN": "C:\\Users\\info\\comfy-env\\Scripts\\comfy.exe",
+        "COMFY_WHERE": "local",
+        "COMFY_LOCAL_URL": "http://127.0.0.1:8188",
+        "PYTHONUTF8": "1",
+        "PYTHONIOENCODING": "utf-8",
+        "PATH": "C:\\Users\\info\\comfy-env\\Scripts;C:\\Users\\info\\comfy\\.venv\\Scripts;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\Program Files\\Git\\cmd"
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "runId": "javidnameh-master-v1",
+  "phase": "complete",
+  "fileKey": "r0wjMmdUI50iaGsxCzBnCG",
+  "fileUrl": "https://www.figma.com/design/r0wjMmdUI50iaGsxCzBnCG",
+  "fileName": "MASTER MEMORIAL — JAVIDNAMEH IRAN — V1",
+  "account": "dorna.teymourzadeh@stud.uni-bamberg.de",
+  "fonts": {
+    "persian": "Vazirmatn",
+    "english": "Source Serif 4"
+  },
+  "entities": {
+    "pages": {
+      "Foundations": "0:1",
+      "Components": "4:25",
+      "Master": "4:26"
+    },
+    "collections": {
+      "Primitives": "VariableCollectionId:3:2",
+      "Color": "VariableCollectionId:3:3",
+      "Spacing": "VariableCollectionId:3:4"
+    },
+    "components": {
+      "PORTRAIT_SLOT": "6:2",
+      "CONTEXT_LABEL": "6:3",
+      "NAME_BLOCK": "6:7",
+      "DATE_BLOCK": "6:10",
+      "FACT_BLOCK": "6:13",
+      "CAUSE_OF_DEATH": "6:39",
+      "BIOGRAPHY_BLOCK": "6:45",
+      "MEMORIAL_STATEMENT": "6:48",
+      "MEMORIAL_HEADER": "6:52",
+      "MEMORIAL_FOOTER": "6:60",
+      "MASTER MEMORIAL TEMPLATE — V1": "7:2"
+    },
+    "frames": {
+      "Foundations / Tokens": "5:2",
+      "PORTRAIT_SLOT instance": "7:13"
+    }
+  },
+  "completedSteps": [
+    "phase0",
+    "phase1",
+    "phase2",
+    "phase3",
+    "phase4"
+  ],
+  "notes": [
+    "No portrait image was inserted or generated.",
+    "P001 and PROJECT 03 were not modified."
+  ]
+}

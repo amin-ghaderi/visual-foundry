@@ -1,0 +1,64 @@
+source_file: handoff-v01.md
+creative_requirements:
+  objective: 'Preserve the already-validated Test Person image pipeline as project
+    P001 after the architecture refactor.
+
+
+    This is not a request to design or export a memorial poster.'
+  composition: ''
+  layout: ''
+  hierarchy: ''
+  typography: ''
+  colors: ''
+  imagery: 'Original photograph: `input/person-original.png`
+
+    Authoritative SHA-256: `16C01E49020258D534C0C24A960CF83DA3EED607B171B062061E1819B0B25EFE`
+
+
+    Validated plate: `prepared/person-final.png` (1080×810 RGBA, pipeline V1.4)'
+  image_treatment: ''
+  content: ''
+  references: ''
+  restrictions: '- Do not overwrite the original photograph.
+
+    - Do not generate a new face.
+
+    - Do not destroy PROJECT 03 — MCP TEST / MCP TEST FRAME.
+
+    - Do not build the Figma Master Template in this handoff.
+
+    - Do not export a poster from this handoff.'
+  requested_changes: ''
+  template_requirements: ''
+technical_requirements:
+  canvas_size: 1080 × 1920
+  spacing: ''
+  alignment: ''
+  template: memorial
+  export: ''
+content_fields_found:
+  persian_name: ''
+  english_name: ''
+  birth_date: ''
+  death_date: ''
+  location: ''
+  identifier: ''
+  memorial_statement_fa: ''
+  memorial_statement_en: ''
+  biography_fa: ''
+  biography_en: ''
+content_fields_empty:
+- persian_name
+- english_name
+- birth_date
+- death_date
+- location
+- identifier
+- memorial_statement_fa
+- memorial_statement_en
+- biography_fa
+- biography_en
+notes:
+- Empty creative fields were left empty.
+- Missing technical values were filled from config.yaml / template defaults.
+- No names, dates, slogans, or biography were invented.

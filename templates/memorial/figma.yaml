@@ -1,0 +1,15 @@
+figma_file_name: MASTER MEMORIAL — JAVIDNAMEH IRAN — V1
+figma_file_key: r0wjMmdUI50iaGsxCzBnCG
+figma_url: https://www.figma.com/design/r0wjMmdUI50iaGsxCzBnCG
+frame_name: MASTER MEMORIAL TEMPLATE — V1
+frame_id: "7:2"
+portrait_slot_name: PORTRAIT_SLOT
+portrait_slot_id: "7:13"
+template_used: memorial
+created_at: "2026-09-08"
+updated_at: "2026-09-08"
+canvas: [1080, 1350]
+notes:
+  - Master is a Figma component. Instance it for each person.
+  - Do not insert a generated portrait.
+  - Do not modify PROJECT 03 — MCP TEST or P001.

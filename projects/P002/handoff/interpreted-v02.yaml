@@ -1,0 +1,58 @@
+project_id: P002
+campaign: Economic D-Day — Iran
+template: campaign
+canvas: [1080, 1080]
+frame_count: 4
+version: v02
+master_template_status: APPROVED
+logo_source: projects/P002/input/brand-logo.jpg
+logo_prepared: projects/P002/prepared/brand-logo-transparent.png
+lion_prepared: projects/P002/prepared/lion-motif.png
+logo_note: Supplied JPEG has a black rectangle. v02 keys only that background to transparent. Full crest, lion, ring, ribbons, flags, and logo text are preserved. Logo artwork still reads IRANIAN MONARCHY PARTY / حزب پادشاهی ایرانیان and is not rewritten.
+source_limitations:
+  - No supplied Scott Bessent quotation. No quotation marks will be used for that attribution.
+  - No supplied historical photograph.
+  - No source stating that every country will participate.
+content:
+  masthead_fa: پارمان پادشاهی ایرانیان
+  masthead_en: IRANIAN MONARCHY PARLIAMENT
+  footer_fa: پارمان پادشاهی ایرانیان
+  post_01:
+    en: ECONOMIC D-DAY
+    fa: برای ایران
+  post_02:
+    title: D-DAY
+    date: 6 JUNE 1944
+    event: ALLIED NORMANDY LANDINGS
+    note: D-Day became a shorthand for a decisive, coordinated operation.
+  post_03:
+    sequence:
+      - D-DAY
+      - COORDINATED ACTION
+      - ECONOMIC PRESSURE
+      - IRAN
+  post_04:
+    cta: Continue the series.
+color:
+  bg: '#0D1722'
+  bg_secondary: '#111E2B'
+  ivory: '#F4F1E8'
+  gold: '#C8A94B'
+figma_file_name: ECONOMIC D-DAY — IRAN — P002
+figma_file_key: 1Hlx23O0YeWSPJ5NgMBZWg
+figma_url: https://www.figma.com/design/1Hlx23O0YeWSPJ5NgMBZWg
+frames:
+  - name: 01 — THE HOOK
+    id: "2:2"
+  - name: 02 — WHAT IS D-DAY?
+    id: "2:17"
+  - name: 03 — ECONOMIC D-DAY
+    id: "2:34"
+  - name: 04 — CONCLUSION
+    id: "2:57"
+restrictions:
+  - Do not generate images.
+  - Do not redraw or recolor the supplied logo.
+  - Do not place the full logo as a background watermark.
+  - Do not invent quotations, slogans, or unsupported claims.
+  - Do not modify P001 or other projects.
