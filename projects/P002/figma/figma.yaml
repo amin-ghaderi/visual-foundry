@@ -5,9 +5,11 @@ mcp_server: user-figma
 canvas: [1080, 1080]
 created_at: "2026-09-09"
 updated_at: "2026-09-09"
-version: v08
+version: v10
 master_template_status: APPROVED
-revision: precision-header-text
+revision: mobile-type-slide01-title
+export_scale: 2
+export_pixels: [2160, 2160]
 logo_source: projects/P002/input/brand-logo.jpg
 logo_prepared: projects/P002/prepared/brand-logo-transparent.png
 logo_image_hash: 0e41c6c0e2d1aada29559faff511c471f96944f7
@@ -22,14 +24,14 @@ footer_fa: پارمان پادشاهی ایرانیان
 kicker_to_headline_gap_px: 30-34
 chain_arrows: leftwards ← on frame 04
 frames:
-  - name: 01 — THE HOOK
+  - name: 01 — THE ECONOMIC ASSAULT
     id: "2:2"
     logo_id: "2:4"
     lion_id: "2:3"
     mast_fa_id: "2:5"
     mast_en_id: "2:6"
     foot_id: "2:9"
-    export: exports/economic-dday-P002-01-v08.png
+    export: exports/economic-dday-P002-01-v10-2x.png
   - name: 02 — WHAT IS D-DAY?
     id: "2:17"
     logo_id: "2:19"
@@ -37,7 +39,7 @@ frames:
     mast_fa_id: "2:20"
     mast_en_id: "2:21"
     foot_id: "2:24"
-    export: exports/economic-dday-P002-02-v08.png
+    export: exports/economic-dday-P002-02-v10-2x.png
   - name: 03 — WHAT IS ECONOMIC D-DAY?
     id: "2:34"
     logo_id: "2:36"
@@ -45,7 +47,7 @@ frames:
     mast_fa_id: "2:37"
     mast_en_id: "2:38"
     foot_id: "2:41"
-    export: exports/economic-dday-P002-03-v08.png
+    export: exports/economic-dday-P002-03-v10-2x.png
   - name: 04 — CONSEQUENCES FOR IRAN
     id: "2:57"
     logo_id: "2:59"
@@ -54,7 +56,7 @@ frames:
     mast_en_id: "2:61"
     foot_id: "2:64"
     chain_id: "16:4"
-    export: exports/economic-dday-P002-04-v08.png
+    export: exports/economic-dday-P002-04-v10-2x.png
   - name: 05 — THE WORLD AROUND IRAN
     id: "13:2"
     logo_id: "13:4"
@@ -62,10 +64,12 @@ frames:
     mast_fa_id: "13:5"
     mast_en_id: "13:6"
     foot_id: "13:9"
-    export: exports/economic-dday-P002-05-v08.png
+    export: exports/economic-dday-P002-05-v10-2x.png
 master_lock: true
 reuse_rule: Duplicate these five frames / this visual system and populate new content at the mobile type scale. Do not create a new Figma file or redesign unless explicitly instructed.
 notes:
+  - v10 mobile type + slide 01 title THE ECONOMIC ASSAULT. P001 not touched.
+  - v09 native 2x PNG export only. Figma design unchanged from v08. P001 not touched.
   - v08 header text + slide 01 kicker. P001 not touched.
   - v07 BG-WHITE watermark placed in existing file. P001 not touched.
   - v06 logo asset placed in existing file. P001 not touched.
