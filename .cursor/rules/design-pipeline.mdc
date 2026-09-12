@@ -18,3 +18,5 @@ Before any design or image work, read:
 Follow the twelve steps in `CURSOR_AGENT.md`.
 
 Never invent biography or names. Never overwrite files in `input/`. Never modify `.cursor/mcp.json`, ComfyUI, or Figma authentication. Never destroy Figma frame `MCP TEST FRAME` in file `y7s7wj1KvlA01cyqlaJZDy`. Do not build the Figma Master Template unless the user asks.
+
+For پارمان پادشاهی ایرانیان editorial work, load `templates/parman-padeshahi-iranian/` (**PMPI-MASTER-V10**). Duplicate the locked V10 frames. Do not redesign the header, footer, logo, type, or color system.

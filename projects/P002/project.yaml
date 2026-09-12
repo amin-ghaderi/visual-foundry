@@ -1,18 +1,19 @@
 project_id: P002
 campaign: Economic D-Day — Iran
 status: master-approved
-master_template_status: APPROVED
-current_version: 10
-template: campaign
+master_template_status: LOCKED/APPROVED
+current_version: 11
+template: parman-padeshahi-iranian
 latest_asset: prepared/brand-logo-transparent.png
-latest_handoff: handoff/economic-dday-P002-handoff-v10.md
+latest_handoff: handoff/economic-dday-P002-handoff-v11.md
 latest_figma: figma/figma.yaml
-latest_export: exports/economic-dday-P002-01-v10-2x.png
+latest_export: exports/economic-dday-P002-cover-v11-2x.png
 created_at: '2026-09-09'
-updated_at: '2026-09-09'
+updated_at: '2026-09-12'
 notes:
-- v10 is a typography/readability revision of the approved P002 master plus slide 01 kicker change.
-- Slide 01 section label is 01 · THE ECONOMIC ASSAULT. Copy otherwise unchanged.
-- Native Figma 2x PNG export: 2160x2160. Logo, lion, header, footer unchanged.
-- Not a new project. Not a new Figma file. P001 was not touched.
-- Previous exports v01–v09 remain historical and were not overwritten.
+- PMPI-MASTER-V10 is LOCKED/APPROVED after final header alignment. Duplicate the five V10 frames; do not edit them in place.
+- Cover frame S14 — COVER (67:2) uses input/main01.png between V10 gold rules. V10 and S14 01–14 untouched.
+- v11 is a 14-slide content restructure cloned from locked V10. V10 remains untouched.
+- Language: «روز D اقتصادی» and «جمهوری اسلامی» for the regime.
+- Visual causal chains with ↑/↓. Monetization and hyperinflation labeled as pessimistic scenarios.
+- Native Figma 2x PNG: 2160x2160. P001 not touched. v01–v10 exports retained.

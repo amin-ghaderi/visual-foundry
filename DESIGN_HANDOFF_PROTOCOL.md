@@ -88,6 +88,8 @@ If a technical value is missing, Cursor uses `config.yaml` and the template. Cur
 
 If the handoff says `template: memorial`, load `templates/memorial/` and **populate** it.
 
+If the handoff is for پارمان پادشاهی ایرانیان, or says “the usual Parman template”, load `templates/parman-padeshahi-iranian/` (**PMPI-MASTER-V10**). Duplicate the locked Figma Master. Do not redesign it.
+
 If no template is named and the user asks for a **new** design, write a new spec. Do not mutate an unrelated template.
 
 ## Files Cursor writes

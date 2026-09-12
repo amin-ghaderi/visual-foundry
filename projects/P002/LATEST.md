@@ -1,38 +1,26 @@
 # P002 — latest
 
-MASTER TEMPLATE STATUS: APPROVED  
-REVISION: v10 mobile readability + slide 01 title
+MASTER TEMPLATE STATUS: LOCKED / APPROVED  
+MASTER ID: `PMPI-MASTER-V10`  
+REVISION: v11 14-slide causal campaign (V10 locked after final header alignment)
 
-- Status: `master-approved`
-- Template: `campaign`
-- Version: `v10`
-- Previous: `v01`–`v09` retained as history; do not overwrite those exports
-- Campaign: `Economic D-Day — Iran`
-- Slide 01 section label: `01 · THE ECONOMIC ASSAULT`
-- Logo / BG-WHITE / header / footer: unchanged from v09
-- Handoff: `handoff/economic-dday-P002-handoff-v10.md`
-- Figma: `figma/figma.yaml`
-- Export: `exports/economic-dday-P002-01-v10-2x.png` (2160×2160)
+- Version: `v11` (campaign content)
+- Master visual: `PMPI-MASTER-V10` frames at y=100
+- Template docs: `templates/parman-padeshahi-iranian/`
+- Phrase: `«روز D اقتصادی»`
+- Regime language: `جمهوری اسلامی`
+- Slides: 14
+- Cover: `S14 — COVER` `67:2` — `exports/economic-dday-P002-cover-v11-2x.png`
+- Export: `exports/economic-dday-P002-01-v11-2x.png` … `14-v11-2x.png` (2160×2160)
+- Figma file: https://www.figma.com/design/1Hlx23O0YeWSPJ5NgMBZWg
+- First S14 frame: `59:2`
 
-## Figma source of truth
-
-- File name: ECONOMIC D-DAY — IRAN — P002
-- File key: `1Hlx23O0YeWSPJ5NgMBZWg`
-- URL: https://www.figma.com/design/1Hlx23O0YeWSPJ5NgMBZWg
-- MCP: `user-figma`
+## Locked V10 master (PMPI-MASTER-V10)
 
 | Frame | ID |
 |---|---|
-| 01 — THE ECONOMIC ASSAULT | `2:2` |
-| 02 — WHAT IS D-DAY? | `2:17` |
-| 03 — WHAT IS ECONOMIC D-DAY? | `2:34` |
-| 04 — CONSEQUENCES FOR IRAN | `2:57` |
-| 05 — THE WORLD AROUND IRAN | `13:2` |
-
-## Exports (v10, 2× 2160×2160)
-
-- `exports/economic-dday-P002-01-v10-2x.png`
-- `exports/economic-dday-P002-02-v10-2x.png`
-- `exports/economic-dday-P002-03-v10-2x.png`
-- `exports/economic-dday-P002-04-v10-2x.png`
-- `exports/economic-dday-P002-05-v10-2x.png`
+| PMPI — MASTER TEMPLATE — V10 — 01 | `2:2` |
+| PMPI — MASTER TEMPLATE — V10 — 02 | `2:17` |
+| PMPI — MASTER TEMPLATE — V10 — 03 | `2:34` |
+| PMPI — MASTER TEMPLATE — V10 — 04 | `2:57` |
+| PMPI — MASTER TEMPLATE — V10 — 05 | `13:2` |

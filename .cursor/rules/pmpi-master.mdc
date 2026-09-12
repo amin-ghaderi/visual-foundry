@@ -1,0 +1,19 @@
+---
+description: PMPI-MASTER-V10 — locked Parman editorial template
+globs: templates/parman-padeshahi-iranian/**,projects/P002/**
+alwaysApply: false
+---
+
+# PMPI-MASTER-V10
+
+Canonical Master for پارمان پادشاهی ایرانیان editorial Instagram slides.
+
+Read `templates/parman-padeshahi-iranian/MASTER_TEMPLATE.md` before any Parman design work.
+
+- Figma file: `1Hlx23O0YeWSPJ5NgMBZWg`
+- Master frames: `2:2`, `2:17`, `2:34`, `2:57`, `13:2`
+- Do not edit those frames in place for new campaigns
+- Duplicate → populate → reflow copy only → export 2× PNG
+- Top-right: حزب پادشاهی ایرانیان / Iranian Monarchy Party
+- Bottom-right: پارمان پادشاهی ایرانیان
+- “Usual Parman template” = PMPI-MASTER-V10

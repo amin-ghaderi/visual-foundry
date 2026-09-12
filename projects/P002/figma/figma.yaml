@@ -4,27 +4,30 @@ figma_url: https://www.figma.com/design/1Hlx23O0YeWSPJ5NgMBZWg
 mcp_server: user-figma
 canvas: [1080, 1080]
 created_at: "2026-09-09"
-updated_at: "2026-09-09"
-version: v10
-master_template_status: APPROVED
-revision: mobile-type-slide01-title
+updated_at: "2026-09-12"
+version: v11
+master_version: v10
+master_template_status: LOCKED/APPROVED
+revision: v11-22-slide-content-expansion
 export_scale: 2
 export_pixels: [2160, 2160]
 logo_source: projects/P002/input/brand-logo.jpg
 logo_prepared: projects/P002/prepared/brand-logo-transparent.png
 logo_image_hash: 0e41c6c0e2d1aada29559faff511c471f96944f7
-logo_treatment: FIT, full 1280x1111 transparent PNG placed directly (not a small raster), top-left 72,64 size 92x80
+logo_treatment: FIT, full 1280x1111 transparent PNG placed directly (not a small raster), top-left 72,50 size 106x92
+masthead_en_lockup: IRANIAN MONARCHY PARTY, Source Serif 4 Regular 13px, tracking 90%, 194,72
+header_alignment: V10 locked — left lockup optically aligned with top-right organization block
 lion_prepared: projects/P002/prepared/BG-WHITE.png
 lion_image_hash: 61122cb41391031f698a02dae8c70d2e9846db1a
 lion_motif: BG-WHITE.png placed directly — white lion + mane/crown, transparent background, FIT, fill opacity 0.16, blend NORMAL, 640x640 at 220,220 (center 540,540)
-masthead_fa: پارمان پادشاهی ایرانیان
+masthead_fa: حزب پادشاهی ایرانیان
 masthead_fa_en: Iranian Monarchy Party
 masthead_en: IRANIAN MONARCHY PARTY
 footer_fa: پارمان پادشاهی ایرانیان
 kicker_to_headline_gap_px: 30-34
 chain_arrows: leftwards ← on frame 04
 frames:
-  - name: 01 — THE ECONOMIC ASSAULT
+  - name: PMPI — MASTER TEMPLATE — V10 — 01 — THE ECONOMIC ASSAULT
     id: "2:2"
     logo_id: "2:4"
     lion_id: "2:3"
@@ -32,7 +35,7 @@ frames:
     mast_en_id: "2:6"
     foot_id: "2:9"
     export: exports/economic-dday-P002-01-v10-2x.png
-  - name: 02 — WHAT IS D-DAY?
+  - name: PMPI — MASTER TEMPLATE — V10 — 02 — WHAT IS D-DAY?
     id: "2:17"
     logo_id: "2:19"
     lion_id: "2:18"
@@ -40,7 +43,7 @@ frames:
     mast_en_id: "2:21"
     foot_id: "2:24"
     export: exports/economic-dday-P002-02-v10-2x.png
-  - name: 03 — WHAT IS ECONOMIC D-DAY?
+  - name: PMPI — MASTER TEMPLATE — V10 — 03 — WHAT IS ECONOMIC D-DAY?
     id: "2:34"
     logo_id: "2:36"
     lion_id: "2:35"
@@ -48,7 +51,7 @@ frames:
     mast_en_id: "2:38"
     foot_id: "2:41"
     export: exports/economic-dday-P002-03-v10-2x.png
-  - name: 04 — CONSEQUENCES FOR IRAN
+  - name: PMPI — MASTER TEMPLATE — V10 — 04 — CONSEQUENCES FOR IRAN
     id: "2:57"
     logo_id: "2:59"
     lion_id: "2:58"
@@ -57,7 +60,7 @@ frames:
     foot_id: "2:64"
     chain_id: "16:4"
     export: exports/economic-dday-P002-04-v10-2x.png
-  - name: 05 — THE WORLD AROUND IRAN
+  - name: PMPI — MASTER TEMPLATE — V10 — 05 — THE WORLD AROUND IRAN
     id: "13:2"
     logo_id: "13:4"
     lion_id: "13:3"
@@ -65,9 +68,35 @@ frames:
     mast_en_id: "13:6"
     foot_id: "13:9"
     export: exports/economic-dday-P002-05-v10-2x.png
+master_id: PMPI-MASTER-V10
 master_lock: true
 reuse_rule: Duplicate these five frames / this visual system and populate new content at the mobile type scale. Do not create a new Figma file or redesign unless explicitly instructed.
+cover_frame:
+  name: "S14 — COVER"
+  id: "67:2"
+  art_id: "67:17"
+  art_source: projects/P002/input/main01.png
+  position: [100, 6700]
+  export: exports/economic-dday-P002-cover-v11-2x.png
+v11_frames:
+  - { name: "S14 — COVER", id: "67:2", export: exports/economic-dday-P002-cover-v11-2x.png }
+  - { name: "S14 — 01 — THE ECONOMIC ASSAULT", id: "59:2", export: exports/economic-dday-P002-01-v11-2x.png }
+  - { name: "S14 — 02 — WHAT IS D-DAY?", id: "59:17", export: exports/economic-dday-P002-02-v11-2x.png }
+  - { name: "S14 — 03 — GOODS FALL", id: "59:32", export: exports/economic-dday-P002-03-v11-2x.png }
+  - { name: "S14 — 04 — MONEY MAY RISE", id: "59:47", export: exports/economic-dday-P002-04-v11-2x.png }
+  - { name: "S14 — 05 — MORE MONEY FEWER GOODS", id: "59:62", export: exports/economic-dday-P002-05-v11-2x.png }
+  - { name: "S14 — 06 — INFLATION HITS CONFIDENCE", id: "59:77", export: exports/economic-dday-P002-06-v11-2x.png }
+  - { name: "S14 — 07 — FLIGHT FROM MONEY", id: "59:92", export: exports/economic-dday-P002-07-v11-2x.png }
+  - { name: "S14 — 08 — THE CYCLE REINFORCES ITSELF", id: "59:107", export: exports/economic-dday-P002-08-v11-2x.png }
+  - { name: "S14 — 09 — CAGAN THRESHOLD", id: "59:122", export: exports/economic-dday-P002-09-v11-2x.png }
+  - { name: "S14 — 10 — PESSIMISTIC HYPERINFLATION", id: "59:137", export: exports/economic-dday-P002-10-v11-2x.png }
+  - { name: "S14 — 11 — IF MONEY IS NOT TRUSTED", id: "59:152", export: exports/economic-dday-P002-11-v11-2x.png }
+  - { name: "S14 — 12 — MONEY IS GOVERNANCE", id: "59:167", export: exports/economic-dday-P002-12-v11-2x.png }
+  - { name: "S14 — 13 — COLLAPSE OF MONEY FUNCTIONS", id: "59:182", export: exports/economic-dday-P002-13-v11-2x.png }
+  - { name: "S14 — 14 — FROM PRESSURE TO MONEY CRISIS", id: "59:197", export: exports/economic-dday-P002-14-v11-2x.png }
 notes:
+  - PMPI-MASTER-V10 locked after final header alignment. Duplicate these frames; do not edit in place.
+  - v11 14-slide causal restructure cloned from V10. P001 not touched.
   - v10 mobile type + slide 01 title THE ECONOMIC ASSAULT. P001 not touched.
   - v09 native 2x PNG export only. Figma design unchanged from v08. P001 not touched.
   - v08 header text + slide 01 kicker. P001 not touched.

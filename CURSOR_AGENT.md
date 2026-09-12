@@ -14,7 +14,7 @@ If a project ID is known, read `projects/<ID>/project.yaml` and `projects/<ID>/L
 4. **Interpret the Design Handoff.** Separate creative requirements from technical requirements. Fill missing technical values from `config.yaml` and the selected template. Do not invent creative content.
 5. **Determine which pipeline stages are required** (background removal, refine, crop, upscale, Figma instance, export). Skip stages that are already satisfied by current validated assets.
 6. **Prepare assets if needed** via `python pipeline/run.py prepare-image --project PXXX`. Run ComfyUI BiRefNet only when the cutout does not already exist. Never overwrite the original photograph.
-7. **Use the correct template.** `templates/memorial/` for memorial work. Do not redesign the template. Populate it.
+7. **Use the correct template.** `templates/memorial/` for memorial work. `templates/parman-padeshahi-iranian/` (**PMPI-MASTER-V10**) for پارمان پادشاهی ایرانیان editorial Instagram work. “The usual Parman template” means PMPI-MASTER-V10. Do not redesign the template. Duplicate the Master and populate it.
 8. **Implement through Figma MCP.** Figma is the visual source of truth. Use native Figma objects. Create a fresh instance from the Master when the Master exists. Never copy P001 to make P002.
 9. **Validate.** `python pipeline/run.py validate --project PXXX`.
 10. **Export** the approved Figma frame into `projects/PXXX/exports/` with a deterministic name (`memorial-P001-v01.png`).

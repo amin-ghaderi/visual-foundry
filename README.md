@@ -28,6 +28,7 @@ AUDIT_REPORT.md
 pipeline/                  CLI orchestrator
 image-preparation/         validated image engine + Real-ESRGAN model + BiRefNet workflow
 templates/memorial/        memorial template spec (Figma master not built yet)
+templates/parman-padeshahi-iranian/  PMPI-MASTER-V10 locked editorial Master
 projects/P001/             first subject (Test Person)
 archive/legacy/            obsolete experiments, kept on purpose
 reports/                   pipeline and project reports
