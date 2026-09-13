@@ -7,10 +7,12 @@ template: parman-padeshahi-iranian
 latest_asset: prepared/brand-logo-transparent.png
 latest_handoff: handoff/economic-dday-P002-handoff-v11.md
 latest_figma: figma/figma.yaml
-latest_export: exports/economic-dday-P002-cover-v11-2x.png
+latest_export: ferdowsi/exports/ferdowsi-P002-verse-002-v03-2x.png
 created_at: '2026-09-09'
-updated_at: '2026-09-12'
+updated_at: '2026-09-13'
 notes:
+- FERDOWSI-VERSE-MASTER is frame 80:2. FINAL locked chrome: شاهنامه برای امروز, top-right پارمان پادشاهی ایرانیان, Persian verse id only. Duplicate; replace text + verse number only. V10 and Economic D-Day untouched.
+- Ferdowsi verse ۰۰۲ (final) is frame 91:2, export ferdowsi/exports/ferdowsi-P002-verse-002-v03-2x.png.
 - PMPI-MASTER-V10 is LOCKED/APPROVED after final header alignment. Duplicate the five V10 frames; do not edit them in place.
 - Cover frame S14 — COVER (67:2) uses input/main01.png between V10 gold rules. V10 and S14 01–14 untouched.
 - v11 is a 14-slide content restructure cloned from locked V10. V10 remains untouched.

@@ -1,0 +1,28 @@
+project_id: P203
+campaign: Content production — Ferdowsi master
+status: awaiting-input
+current_version: 1
+template: parman-padeshahi-iranian
+design_source: FERDOWSI-VERSE-MASTER
+design_source_project: P002
+design_source_frame: '80:2'
+design_source_file_key: 1Hlx23O0YeWSPJ5NgMBZWg
+design_source_contract: projects/P002/ferdowsi/master/MASTER.md
+design_source_png: projects/P002/ferdowsi/master/ferdowsi-verse-master-001-v03-2x.png
+master_lock: true
+do_not_edit_master: true
+do_not_use_pmpi_v10: true
+latest_asset: ''
+latest_handoff: ''
+latest_figma: figma/figma.yaml
+latest_export: ''
+created_at: '2026-09-13'
+updated_at: '2026-09-13'
+notes:
+- P203 is a content-production project. Not a new visual identity.
+- Design source is FERDOWSI-VERSE-MASTER (P002 frame 80:2). Duplicate that frame only.
+- Do not edit FERDOWSI-VERSE-MASTER. Do not clone PMPI-MASTER-V10. Do not create a new Figma file.
+- Section title locked: شاهنامه برای امروز
+- Branding locked: پارمان پادشاهی ایرانیان / Iranian Monarchy Party
+- Numbering: Persian sequential ۰۰۱ ۰۰۲ ۰۰۳ — no slash, no em dash.
+- Wait for materials in input/. Do not generate slides until source content is provided.

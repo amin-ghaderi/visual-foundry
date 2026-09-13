@@ -25,3 +25,5 @@ Header lockup (final V10 alignment): logo 106×92 at 72,50 FIT; wordmark `IRANIA
 | PMPI — MASTER TEMPLATE — V10 — 05 | 13:2 | 13:4 | 13:3 | 13:5 | 13:6 | 13:9 |
 
 P002 v11 content lives on S14 frames (`59:2` … `59:197`) plus cover `67:2`. Those are campaign instances, not the Master.
+
+Literary series master (separate from V10): `FERDOWSI-VERSE-MASTER` frame `80:2`. Contract: `projects/P002/ferdowsi/master/MASTER.md`. Locked chrome: section `شاهنامه برای امروز`, top-right `پارمان پادشاهی ایرانیان`, bottom-left Persian verse id only. Duplicate that frame; replace text and verse number only; do not redesign.

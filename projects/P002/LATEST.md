@@ -11,6 +11,8 @@ REVISION: v11 14-slide causal campaign (V10 locked after final header alignment)
 - Regime language: `جمهوری اسلامی`
 - Slides: 14
 - Cover: `S14 — COVER` `67:2` — `exports/economic-dday-P002-cover-v11-2x.png`
+- Ferdowsi series master: `FERDOWSI-VERSE-MASTER` `80:2` — `ferdowsi/master/MASTER.md` (section `شاهنامه برای امروز`, verse id `۰۰۱`)
+- Ferdowsi verse ۰۰۲ (final): `91:2` — `ferdowsi/exports/ferdowsi-P002-verse-002-v03-2x.png`
 - Export: `exports/economic-dday-P002-01-v11-2x.png` … `14-v11-2x.png` (2160×2160)
 - Figma file: https://www.figma.com/design/1Hlx23O0YeWSPJ5NgMBZWg
 - First S14 frame: `59:2`

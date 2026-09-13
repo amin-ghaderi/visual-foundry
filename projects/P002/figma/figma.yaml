@@ -4,7 +4,7 @@ figma_url: https://www.figma.com/design/1Hlx23O0YeWSPJ5NgMBZWg
 mcp_server: user-figma
 canvas: [1080, 1080]
 created_at: "2026-09-09"
-updated_at: "2026-09-12"
+updated_at: "2026-09-13"
 version: v11
 master_version: v10
 master_template_status: LOCKED/APPROVED
@@ -78,6 +78,25 @@ cover_frame:
   art_source: projects/P002/input/main01.png
   position: [100, 6700]
   export: exports/economic-dday-P002-cover-v11-2x.png
+ferdowsi_verse_master:
+  name: FERDOWSI-VERSE-MASTER
+  id: "80:2"
+  position: [100, 11000]
+  section_label: شاهنامه برای امروز
+  mast_fa: پارمان پادشاهی ایرانیان
+  mast_fa_en: Iranian Monarchy Party
+  footer_fa: پارمان پادشاهی ایرانیان
+  verse_id: "۰۰۱"
+  export: ferdowsi/master/ferdowsi-verse-master-001-v03-2x.png
+  original_export: exports/pmpi-01-01-yek-beyt-v01-2x.png
+  note: Literary series master. Duplicate 80:2 only. Persian verse id bottom-left. Not PMPI-MASTER-V10.
+ferdowsi_slides:
+  - name: "FERDOWSI — ۰۰۲"
+    id: "91:2"
+    position: [1280, 11000]
+    verse_id: "۰۰۲"
+    export: ferdowsi/exports/ferdowsi-P002-verse-002-v03-2x.png
+    note: Clone of FERDOWSI-VERSE-MASTER. Content + verse number only.
 v11_frames:
   - { name: "S14 — COVER", id: "67:2", export: exports/economic-dday-P002-cover-v11-2x.png }
   - { name: "S14 — 01 — THE ECONOMIC ASSAULT", id: "59:2", export: exports/economic-dday-P002-01-v11-2x.png }
@@ -95,6 +114,7 @@ v11_frames:
   - { name: "S14 — 13 — COLLAPSE OF MONEY FUNCTIONS", id: "59:182", export: exports/economic-dday-P002-13-v11-2x.png }
   - { name: "S14 — 14 — FROM PRESSURE TO MONEY CRISIS", id: "59:197", export: exports/economic-dday-P002-14-v11-2x.png }
 notes:
+  - FERDOWSI-VERSE-MASTER (80:2) FINAL locked chrome: شاهنامه برای امروز, top-right پارمان, verse id Persian digits only. Duplicate; replace text + verse number only. PMPI-MASTER-V10 and S14 Economic D-Day remain untouched.
   - PMPI-MASTER-V10 locked after final header alignment. Duplicate these frames; do not edit in place.
   - v11 14-slide causal restructure cloned from V10. P001 not touched.
   - v10 mobile type + slide 01 title THE ECONOMIC ASSAULT. P001 not touched.

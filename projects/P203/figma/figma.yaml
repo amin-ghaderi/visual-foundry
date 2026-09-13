@@ -1,0 +1,29 @@
+figma_file_name: ECONOMIC D-DAY — IRAN — P002
+figma_file_key: 1Hlx23O0YeWSPJ5NgMBZWg
+figma_url: https://www.figma.com/design/1Hlx23O0YeWSPJ5NgMBZWg
+mcp_server: user-figma
+canvas: [1080, 1080]
+created_at: "2026-09-13"
+updated_at: "2026-09-13"
+export_scale: 2
+export_pixels: [2160, 2160]
+design_source: FERDOWSI-VERSE-MASTER
+design_source_project: P002
+master_lock: true
+reuse_rule: Duplicate FERDOWSI-VERSE-MASTER (80:2). Replace text and sequential number only. Never edit 80:2. Never clone PMPI-MASTER-V10 (2:2). Never create a new Figma file.
+ferdowsi_verse_master:
+  name: FERDOWSI-VERSE-MASTER
+  id: "80:2"
+  position: [100, 11000]
+  section_label: شاهنامه برای امروز
+  mast_fa: پارمان پادشاهی ایرانیان
+  mast_fa_en: Iranian Monarchy Party
+  footer_fa: پارمان پادشاهی ایرانیان
+  verse_id_on_master: "۰۰۱"
+  contract: projects/P002/ferdowsi/master/MASTER.md
+  export: projects/P002/ferdowsi/master/ferdowsi-verse-master-001-v03-2x.png
+  do_not_edit: true
+p203_slides: []
+notes:
+  - P203 inherits FERDOWSI-VERSE-MASTER from P002. This file tracks that inheritance.
+  - No P203 slides exist yet. Wait for input/.
